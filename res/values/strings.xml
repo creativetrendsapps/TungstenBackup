@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tungsten Backup</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="choose_email_client">Choose e-mail client</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="backupConfirmation">Backup?</string>
+    <string name="restoreConfirmation">Restore?</string>
+    <string name="handleApk">APK</string>
+    <string name="handleData">Data</string>
+    <string name="handleBoth">Both</string>
+    <string name="radioApk">APK</string>
+    <string name="radioData">Data</string>
+    <string name="radioBoth">Data + APK</string>
+    <string name="de_selectAll">De/select All</string>
+    <string name="onlyApkBackedUp">Only APK</string>
+    <string name="onlyDataBackedUp">Only Data</string>
+    <string name="refresh">Refresh</string>
+    <string name="batchbackup">Batch Backup</string>
+    <string name="batchrestore">Batch Restore</string>
+    <string name="search">Search</string>
+    <string name="searchHint">Search For Apps</string>
+    <string name="deleteBackup">Delete Backup</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="uninstallProgress">Uninstalling</string>
+    <string name="showAll">Show All</string>
+    <string name="showOnlySystem">Only System Apps</string>
+    <string name="showOnlyUser">Only User Apps</string>
+    <string name="showNotBackedup">Apps Not Backed Up</string>
+    <string name="showNotInstalled">Apps Not installed</string>
+    <string name="showNewAndUpdated">New &amp; Updated</string>
+    <string name="showOldBackups">Old Backups</string>
+    <string name="showOnlyApkBackedUp">Only APK Backed Up</string>
+    <string name="showOnlyDataBackedUp">Only Data Backed Up</string>
+    <string name="showOnlySpecialBackups">Only Special Back Up</string>
+    <string name="sortByLabel">Sort By Label</string>
+    <string name="sortByPackageName">Sort By Packagename</string>
+    <string name="sort">Sort Order</string>
+    <string name="uninstallDialogMessage">Uninstall App?</string>
+    <string name="deleteBackupDialogMessage">Delete Backup?</string>
+    <string name="dialogOK">OK</string>
+    <string name="dialogCancel">Cancel</string>
+    <string name="dialogYes">Yes</string>
+    <string name="dialogNo">No</string>
+    <string name="noBackupYet">Not Backed Up</string>
+    <string name="restoreDataWithoutApkError">Cannot Restore Data Without Restoring APK</string>
+    <string name="collectingData">Getting Packages</string>
+    <string name="suCheck">Asking For Root</string>
+    <string name="noSu">Couldn\'t Get Root Permissions</string>
+    <string name="busyboxProblem">Please Install BusyBox</string>
+        <!-- mkfileError: an error occured while creating a file. format: string + " " + filename -->
+    <string name="mkfileError">Couldn\'t Create</string>
+        <!-- fallbackToDefault: indicates a fallback to the default for creation of a specific file. used in the same way as mkfileError -->
+    <string name="fallbackToDefault">Restore Default</string>
+    <string name="backupFolderError">Set Correct Save Path In Settings</string>
+    <string name="shellReturnSuccess">Successful</string>
+    <string name="shellReturnError">Something Went Wrong</string>
+    <string name="backupProgress">Preparing Backup</string>
+    <string name="backupSuccess">Backup Completed Successfully</string>
+    <string name="backupFailure">Error Creating Backup</string>
+    <string name="restoreProgress">Restoring</string>
+    <string name="restoreSuccess">Restore Completed</string>
+    <string name="restoreFailure">Error Restoring</string>
+    <string name="batchSuccess">Completed</string>
+    <string name="batchFailure">Completed With Error</string>
+    <string name="uninstallSuccess">Uninstall Completed</string>
+    <string name="uninstallFailure">Something Went Wrong</string>
+    <string name="errorDialogTitle">Something Went Wrong</string>
+    <string name="customListTitle">Custom List</string>
+    <string name="quickReboot">Quick Reboot</string>
+    <string name="quickRebootMessage">Would You Like To Restart?</string>
+    <string name="help_title">Help</string>
+    <string name="notInstalledModeDataWarning">APK Needed For Restore</string>
+    <string name="shareTitle">Share</string>
+    <string name="filebrowser_title">File Browser</string>
+    
+    <string name="tools_title">Tools</string>
+    <string name="tools_batchDeleteTitle">Delete Backups?</string>
+    <string name="tools_batchDeleteMessage">Deleting Backups</string>
+    <string name="tools_notificationTitle">Delete Backups</string>
+    
+        <!-- tools_backupsDeleted: shown in a notification followed by the number of backups deleted -->
+    <string name="tools_backupsDeleted">Backups Deleted:</string>
+    <string name="tools_nothingToDelete">Create A Backup To Delete</string>
+
+    <string name="enablePackage">Enable</string>
+        <!-- enablePackageTitle: title for a list of checkable users -->
+    <string name="enablePackageTitle">Enable For Users</string>
+    <string name="disablePackage">Disable</string>
+    <string name="disablePackageTitle">Disable for Users</string>
+
+    <string name="prefs_title">Settings</string>
+    <string name="prefs_timestamp">Timestamp</string>
+    <string name="prefs_acquireWakelock">Display Always On</string>
+    <string name="prefs_summaryAcquireWakelock">acquire a wakelock while batch operations are running to prevent sleep. will speed up backups and restores considerably but will consume more energy</string>
+    <string name="prefs_pathscategory">custom paths</string>
+    <string name="prefs_pathBackupFolder">backup folder</string>
+    <string name="prefs_summaryBackupFolder">path to backup folder. leave blank for default.</string>
+    <string name="prefs_pathBusybox">busybox</string>
+    <string name="prefs_summaryBusybox">path to busybox executable. be sure it\'s correct. leave blank for default.</string>
+    <string name="prefs_oldBackups">filter backups by age</string>
+        <!-- prefs_summaryOldBackups: the quoted filter title is @string/showOldBackups -->
+    <string name="prefs_summaryOldBackups">filter backups older than value in days. used with the filter \'show old backups\'</string>
+    <string name="prefs_copySelfApk">Backup Tungsten</string>
+    <string name="prefs_summaryCopySelfApk">place a copy of Tungsten in the top level of the backup folder when backed up</string>
+    <string name="prefs_languages">language</string>
+    <string name="prefs_languageSystemDefault">system default</string>
+    <string name="prefs_rememberFiltering">remember sort and filter</string>
+    <string name="prefs_summaryRememberFiltering">saves the chosen sorting and filtering method. only those marked by a checkbox in the menu is considered.</string>
+    <string name="prefs_disableNotifications">disable notifications</string>
+    <string name="prefs_summaryDisableNotifications">when checked, Tungsten won\'t show any notifications</string>
+    <string name="prefs_followSymlinks">follow symbolic links</string>
+    <string name="prefs_summaryFollowSymlinks">always follow symbolic links when copying (cp -L)</string>
+    <string name="prefs_enableSpecialBackups">enable special backups</string>
+    <string name="prefs_backupExternalFiles">handle external data</string>
+    <string name="prefs_summaryBackupExternalFiles">backs up and restores data that is placed on the external storage (e.g. /sdcard/Android/data/)</string>
+    <string name="prefs_cryptoMenu">cryptography</string>
+    <string name="prefs_enableCrypto">enable</string>
+    <string name="prefs_summaryEnableCrypto">enable encryption when backing up files and decryption when restoring</string>
+    <string name="prefs_cryptoUserIds">openpgp user ids</string>
+    <string name="prefs_summaryCryptoUserIds">emails of user ids to use for encrypting files. split with \",\"</string>
+    <string name="prefs_openpgpProviderList">openpgp provider</string>
+
+    <string name="sched_title">Schedule</string>
+    <string name="sched_notificationMessage">scheduled backup</string>
+    <string name="sched_interval">interval in days</string>
+    <string name="sched_hourOfDay">hour of day (0..23)</string>
+    <string name="sched_checkbox">enable</string>
+    <string name="sched_updateButton">update</string>
+    <string name="sched_removeButton">remove</string>
+    <string name="sched_activateButton">start backup now</string>
+    <string name="sched_startingbackup">starting scheduled backup</string>
+    <string name="sched_backupMode">backup mode</string>
+    <string name="sched_timeLeft">hours until next backup</string>
+    <string name="sched_addSchudule">add schedule</string>
+    <string name="sched_customListUpdateButton">update custom list</string>
+    <string name="sched_excludeSystemCheckBox">exclude system apps</string>
+    <string name="sched_warningIntervalZero">error: interval cannot be 0</string>
+
+    <string name="spec_accounts">Accounts</string>
+    <string name="spec_appwidgets">Application Widgets</string>
+    <string name="spec_bluetooth">Bluetooth</string>
+    <string name="spec_data">Data Usage and Policy</string>
+    <string name="spec_wallpaper">Wallpaper</string>
+    <string name="spec_wifiAccessPoints">Wifi Access Points</string>
+
+    <string name="filebrowser_setButton">set</string>
+    <string name="filebrowser_createDirectory">create folder</string>
+    <string name="filebrowser_createDirectoryDlgMsg">enter name of folder to create</string>
+    
+    <!-- filebrowser_createDirectoryError: an error occured while trying to create the directory. format: string + " " + directory name -->
+    
+    <string name="filebrowser_createDirectoryError">could not create the folder: </string>
+    <string name="filebrowser_refresh">Refresh</string>
+    <string name="filebrowser_contextSetBackupDirectory">set as backup folder</string>
+
+    <string name="logviewer_message_loading">loading log file</string>
+    <string name="logviewer_next_lines_button">next</string>
+</resources>

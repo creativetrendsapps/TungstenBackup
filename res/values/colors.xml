@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#313131</color>
+    <color name="accentColor">#3b5999</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="colorTransparent">#09999999</color>
+    <color name="titleColor">#F9F9F9</color>
+    <color name="preferenceTitle">#FFFFFF</color>
+    <color name="editText">#000000</color>
+    <color name="aboutText">#6d6d6d</color>
+</resources>

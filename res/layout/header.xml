@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:id="@+id/header" >
+    
+    
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            
+        
+        
+    
+    <ImageView
+        android:id="@+id/back_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="?attr/colorPrimary"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop" />
+    
+                
+    </RelativeLayout>
+
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/drawer_grouping_padding"
+        android:paddingEnd="@dimen/drawer_right"
+        android:paddingLeft="@dimen/drawer_left"
+        android:paddingRight="@dimen/drawer_right"
+        android:paddingStart="@dimen/drawer_left"
+        android:paddingTop="@dimen/drawer_top" >
+
+        
+        <TextView
+            android:id="@+id/foliof"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="W"
+            android:textColor="#ffffff"
+            android:textSize="110sp"
+            android:layout_marginBottom="10dp"
+            tools:ignore="HardcodedText"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+    </RelativeLayout>
+
+</FrameLayout>

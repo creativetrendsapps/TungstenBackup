@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <item
+        android:id="@+id/quick_access"
+        android:title="Tools">
+        <menu>
+            <item
+            android:id="@+id/batch"
+            android:checked="false"
+            android:title="Batch Backup" 
+            android:checkable="true"/>
+            <item
+            android:id="@+id/restore"
+            android:checked="false"
+            android:title="Batch Restore"
+            android:checkable="true" />
+            
+            <item
+            android:id="@+id/scheduling"
+            android:checked="false"
+            android:title="Scheduling"
+            android:checkable="true" />
+            <item
+            android:id="@+id/settings"
+            android:checked="false"
+            android:title="Settings" 
+            android:checkable="true"/>
+            
+            <item
+            android:id="@+id/help"
+            android:checked="false"
+            android:title="Help" 
+            android:checkable="true"/>
+            
+            <item
+            android:id="@+id/bugs"
+            android:checked="false"
+            android:title="Report A Bug" 
+            android:checkable="true"/>
+            
+            <item
+            android:id="@+id/feedback"
+            android:checked="false"
+            android:title="Send Feedback" 
+            android:checkable="true"/>
+            
+        </menu>
+    </item>   
+
+</menu>

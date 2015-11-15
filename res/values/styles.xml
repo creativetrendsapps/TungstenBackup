@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    
+    
+    <!-- DEFAULT FOLIO THEME. -->
+     <!-- PURPLE FOLIO THEME DARK DRAWER-->
+    <style name="TungstenTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>              
+        <item name="colorControlHighlight">@color/colorTransparent</item>
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:ignore="NewApi">true</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation" tools:ignore="NewApi">true</item>
+    </style>
+    
+    
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+    
+    
+    
+    <style name="Theme.AppCompat.WithActionBar" parent="@style/Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/titleColor</item>
+        <item name="android:windowTranslucentNavigation" tools:ignore="NewApi">true</item>
+    </style>
+
+    <style name="Theme.AppCompat.Preferences" parent="@style/Theme.AppCompat.WithActionBar">
+        <item name="android:textColor">@color/preferenceTitle</item>
+        <item name="android:editTextColor">@color/editText</item>
+       
+        
+    </style>
+    
+</resources>
